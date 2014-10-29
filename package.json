@@ -1,0 +1,36 @@
+{
+  "name": "dropbox-stream-writer",
+  "description": "writing files to dropbox via the core api",
+  "version": "0.0.0",
+  "homepage": "https://github.com/cpak/dropbox-node",
+  "bugs": "https://github.com/cpak/dropbox-node/issues",
+  "license": "MIT",
+  "main": "lib/dropbox-node.js",
+  "author": {
+    "name": "christofer pak",
+    "email": "christoferpak@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cpak/dropbox-node"
+  },
+  "keywords": [],
+  "dependencies": {
+    "request": "^2.47.0",
+    "through2": "^0.6.3"
+  },
+  "devDependencies": {
+    "gulp": "^3.6.2",
+    "gulp-jshint": "^1.5.5",
+    "gulp-mocha": "^0.4.1",
+    "coveralls": "^2.10.0",
+    "should": "^3.3.1",
+    "jshint-stylish": "^0.2.0",
+    "gulp-load-plugins": "^0.5.1",
+    "gulp-plumber": "^0.6.2"
+  },
+  "scripts": {
+    "coveralls": "gulp test && cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
+    "test": "gulp test"
+  }
+}
