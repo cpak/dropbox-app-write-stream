@@ -1,18 +1,18 @@
 {
-  "name": "dropbox-stream-writer",
-  "description": "writing files to dropbox via the core api",
-  "version": "0.0.0",
-  "homepage": "https://github.com/cpak/dropbox-node",
-  "bugs": "https://github.com/cpak/dropbox-node/issues",
+  "name": "dropbox-app-write-stream",
+  "description": "Stream files to your Dropbox app",
+  "version": "0.0.1",
+  "homepage": "https://github.com/cpak/dropbox-app-write-stream",
+  "bugs": "https://github.com/cpak/dropbox-app-write-stream/issues",
   "license": "MIT",
-  "main": "lib/dropbox-node.js",
+  "main": "lib/dropbox-app-write-stream.js",
   "author": {
     "name": "christofer pak",
     "email": "christoferpak@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/cpak/dropbox-node"
+    "url": "https://github.com/cpak/dropbox-app-write-stream"
   },
   "keywords": [],
   "dependencies": {
